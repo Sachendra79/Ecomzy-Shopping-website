@@ -25,7 +25,7 @@ const Home = () => {
     fetchProductData();
   }, []);
 
-console.log(posts);
+
 
   return (
     <div>
