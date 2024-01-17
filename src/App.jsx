@@ -1,10 +1,11 @@
-import Counter from "./components/Counter";
+
 
 const App = () => {
   return (
     <div>
-
-   <Counter/>
+     
+  Hello shopping cart   
+  
     </div>
 
     

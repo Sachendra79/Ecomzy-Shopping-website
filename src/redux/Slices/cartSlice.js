@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import { createSlice } from "@reduxjs/toolkit";
 
-const cartSlice = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const CartSlice = createSlice({
+  name: "cart",
+  initialState: [],
+  reducers: {
+    add: () => {},
+    remove: () => {},
+  },
+});
 
-export default cartSlice
+export const { add, remove } = CartSlice.actions;
+export default CartSlice.reducer;
