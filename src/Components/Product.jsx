@@ -19,7 +19,7 @@ const removeFromCart =() => {
 
 
   return (
-    <div className="flex flex-col items-center justify-between 
+    <div className="flex flex-col items-center justify-between
     hover:scale-105 hover:shadow-2xl hover:shadow-black  transition duration-300 ease-in rounded-xl gap-3 p-4 mt-10 ml-5 ">
       <div className="text-gray-700 font-semibold text-lg text-left truncate w-40 m-1">
         <p>{post.title}</p>

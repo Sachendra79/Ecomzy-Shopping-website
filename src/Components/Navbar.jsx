@@ -10,8 +10,8 @@ const Navbar = () => {
     <div className=" bg-slate-900" >
       <nav className="flex justify-between items-center h-20 max-w-6xl mx-auto">
         <NavLink to="/">
-          <div className="ml-5">
-            <img className="h-14" src={navImg} alt="navImg" />
+          <div className="ml-5 mb-3">
+            <img className=" h-12" src={navImg} alt="navImg" />
            
           </div>
         </NavLink>
